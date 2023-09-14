@@ -1,0 +1,23 @@
+{
+  "name": "chatex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  },
+  "description": ""
+}
